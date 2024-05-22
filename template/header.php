@@ -30,6 +30,13 @@
         .lgn-btn{
             background-color: #640b0b !important;
         }
+
+        .navbar-nav .nav-link {
+            padding-left: 20px; /* Adiciona um espaço à esquerda para os itens */
+            padding-right: 20px; /* Adiciona um espaço à direita para os itens */
+            margin-right: 35px; /* Adiciona espaçamento entre os itens */
+            margin-left: 35px; /* Adiciona espaçamento entre os itens */
+        }
     </style>
 </head>
 <body>
@@ -53,8 +60,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="ponto.php">Controle de Pontuação</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="atividades.php">Atividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destaques.php">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="qts.php">QTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="avisos.php">Avisos</a>
+                        </li>
                     </ul>
-                    <a href="login.html" class="btn btn-danger lgn-btn">Encerrar Sessão</a>
+                    <a href="login.php" class="btn btn-danger lgn-btn">Encerrar Sessão</a>
                 </div>
             </div>
         </nav>

@@ -49,6 +49,11 @@
     </style>
 </head>
 <body>
+    <br>
+    <H1 style="text-align: center;">Destaques</H1>
+    <br>
+    
+
     <div class="container">
         <div class="destaque">
             <img src="img/norton.jpeg" alt="Destaque 1">
@@ -58,10 +63,10 @@
             </div>
         </div>
         <div class="destaque">
-            <img src="img/destaque2.jpg" alt="Destaque 2">
+            <img src="img/045.jpeg" alt="Destaque 2">
             <div class="destaque-text">
-                <h2>Segundo Destaque</h2>
-                <p>O Segundo Destaque se destacou por sua dedicação e comprometimento durante o período. Suas conquistas são inspiradoras para todos.</p>
+                <h2>Atirador Gutho</h2>
+                <p>Atirador 045 Gutho, maior capinador de lote do Brasil. Antes de eu entrar para o exército 🪖 o nome do curso catinga era matagal. Infante falante de 3 idiomas inglês português e muita merdaaaaaaaa Braaasil.</p>
             </div>
         </div>
         <div class="destaque">

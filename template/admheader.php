@@ -58,7 +58,7 @@
                             <a class="nav-link" href="escala.php">Escala de serviço</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ponto.php">Controle de Pontuação</a>
+                            <a class="nav-link" href="adm_ponto.php">Gerenciar pontos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="atividades.php">Atividades</a>

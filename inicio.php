@@ -8,14 +8,14 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/capa2.jpg" class="d-block w-100" width="90%" alt="...">
+                <img src="img/capa.jpg" class="d-block w-100" width="90%" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>...</h5>
                   <p>...</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="img/capa.jpg" class="d-block w-100" alt="...">
+                <img src="img/capa2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>...</h5>
                   <p>...</p>
@@ -41,4 +41,4 @@
             </button>
           </div>
 
-        
+          <?php include "template/footer.php"; ?>   

@@ -10,21 +10,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TG-04013</title>
     <style>
+        .container-fluid {
+            width: 100%!important;
+            padding: 0!important;
+        }        
         .navbar {
-            max-height: 70px; 
+            max-height: 70px!important; 
         }
 
         .navbar-brand img {
-            height: 60px; 
-            margin-top: 4px;
+            height: 60px !important;
+            margin-top: 4px!important;
         }
 
         .strong {  
-            font-weight: bold;
+            font-weight: bold!important;
         }
 
         .bg-menu {
-            background-color: #063206; /* Define o fundo da barra de navegação como verde escuro */
+            background-color: #063206 !important;/* Define o fundo da barra de navegação como verde escuro */
         }
 
         .lgn-btn{
@@ -32,10 +36,10 @@
         }
 
         .navbar-nav .nav-link {
-            padding-left: 20px; /* Adiciona um espaço à esquerda para os itens */
-            padding-right: 20px; /* Adiciona um espaço à direita para os itens */
-            margin-right: 35px; /* Adiciona espaçamento entre os itens */
-            margin-left: 35px; /* Adiciona espaçamento entre os itens */
+            padding-left: 20px /* Adiciona um espaço à esquerda para os itens */ !important;
+            padding-right: 20px /* Adiciona um espaço à direita para os itens */!important;
+            margin-right: 35px /* Adiciona espaçamento entre os itens */!important;
+            margin-left: 35px /* Adiciona espaçamento entre os itens */!important;
         }
     </style>
 </head>
@@ -66,8 +70,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="destaques.php">Destaques</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="qts.php">QTS</a>
+                    
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="avisos.php">Avisos</a>

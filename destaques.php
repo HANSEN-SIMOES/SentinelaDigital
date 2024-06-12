@@ -70,12 +70,13 @@
             </div>
         </div>
         <div class="destaque">
-            <img src="img/destaque3.jpg" alt="Destaque 3">
+            <img src="img/nathan.jpeg" alt="Destaque 3">
             <div class="destaque-text">
-                <h2>Terceiro Destaque</h2>
+                <h2>Atirador Nathan</h2>
                 <p>O Terceiro Destaque foi reconhecido por sua habilidade técnica e habilidades interpessoais excepcionais. Parabéns pela conquista!</p>
             </div>
         </div>
     </div>
 </body>
 </html>
+<?php include "template/footer.php"; ?>

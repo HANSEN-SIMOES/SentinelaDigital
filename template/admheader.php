@@ -11,11 +11,11 @@
     <title>TG-04013</title>
     <style>
         .navbar {
-            max-height: 70px; 
+            background-color: #063206; /* Define o fundo da barra de navegação como verde escuro */
         }
 
         .navbar-brand img {
-            height: 60px; 
+            height: 60px;
             margin-top: 4px;
         }
 
@@ -23,25 +23,28 @@
             font-weight: bold;
         }
 
-        .bg-menu {
-            background-color: #063206; /* Define o fundo da barra de navegação como verde escuro */
-        }
-
-        .lgn-btn{
-            background-color: #640b0b !important;
-        }
-
         .navbar-nav .nav-link {
             padding-left: 20px; /* Adiciona um espaço à esquerda para os itens */
             padding-right: 20px; /* Adiciona um espaço à direita para os itens */
-            margin-right: 35px; /* Adiciona espaçamento entre os itens */
-            margin-left: 35px; /* Adiciona espaçamento entre os itens */
+            margin-right: 10px; /* Reduzido o espaçamento entre os itens */
+            margin-left: 10px; /* Reduzido o espaçamento entre os itens */
+        }
+
+        .lgn-btn {
+            background-color: #640b0b !important;
+        }
+
+        }
+
+        .container-fluid {
+            width: 100%;
+            padding: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-menu"> <!-- Alterada a classe para bg-menu -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top"> <!-- Adicionado fixed-top para fixar no topo -->
             <div class="container-fluid">
                 <a class="navbar-brand" href="inicio.php">
                     <img src="img/logo.png" alt="Logo" class="logo">
@@ -55,22 +58,21 @@
                             <a class="nav-link active strong" aria-current="page" href="inicio.php">TG-04013</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="escala.php">Escala de serviço</a>
+                            <a class="nav-link" href="adm_escala.php">Escala de serviço</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="adm_ponto.php">Gerenciar pontos</a>
+                            <a class="nav-link" href="processa_pontos.php">Gerenciar pontos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="atividades.php">Atividades</a>
+                            <a class="nav-link" href="adm_atividades.php">Atividades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="destaques.php">Destaques</a>
+                            <a class="nav-link" href="adm_destaques.php">Destaques</a>
+                        </li>
+                       
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="qts.php">QTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="avisos.php">Avisos</a>
+                            <a class="nav-link" href="adm_avisos.php">Avisos</a>
                         </li>
                     </ul>
                     <a href="login.php" class="btn btn-danger lgn-btn">Encerrar Sessão</a>

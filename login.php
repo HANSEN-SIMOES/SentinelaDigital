@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - TG-04013</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,9 +12,16 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            flex-direction: column; /* Certifica-se de que o conteúdo é empilhado verticalmente */
+            align-items: center; /* Centraliza horizontalmente */
+            min-height: 100vh; /* Garante que o body tenha pelo menos a altura da tela */
+        }
+        .content {
+            flex: 1; /* Permite que o conteúdo principal ocupe o espaço restante */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            width: 100%;
         }
         .login-container {
             width: 300px;
@@ -21,36 +29,12 @@
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .login-container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .form-group label {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-        }
-        .form-group input {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
+            margin-top: 50px;
         }
         .btn-login {
             width: 100%;
-            padding: 10px;
-            border: none;
             background-color: #063206;
             color: #ffffff;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 4px;
-            cursor: pointer;
         }
         .btn-login:hover {
             background-color: #045404;
@@ -58,19 +42,24 @@
     </style>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login - TG-04013</h2>
-        <form action="processa_login.php" method="POST">
-            <div class="form-group">
-                <label for="username">Usuário:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" class="btn-login">Entrar</button>
-        </form>
+    <div class="content">
+        <div class="login-container">
+            <h2 class="text-center">Login - TG-04013</h2>
+            <form action="processa_login.php" method="POST">
+                <div class="form-group">
+                    <label for="numero_atirador">Número do Atirador:</label>
+                    <input type="text" class="form-control" id="numero_atirador" name="numero_atirador" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" class="form-control" id="senha" name="senha" required>
+                </div>
+                <button type="submit" class="btn btn-login">Login</button>
+            </form>
+        </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
